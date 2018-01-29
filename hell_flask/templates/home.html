@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block content %}
+  <div class="jumbo">
+    <h2>Hello<h2>
+    <h3>Buses to north greenwich<h3>
+  </div>
+ <br>
+ <div class="container">
+ 	{% for x in buses %}
+    <h3>{{x}}</h3>
+  {% endfor %}
+{% endblock %}
