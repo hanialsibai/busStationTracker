@@ -1,22 +1,50 @@
 {% extends "layout.html" %}
 {% block content %}
+<!-- <div class="col-6">
   <div class="jumbo">
     <h3>Buses to north greenwich<h3>
   </div>
  <br>
  <div class="container timerText" id ="toGW">
- 	{% for x in buses %}
+  {% for x in buses %}
     <h3>{{x}}</h3>
   {% endfor %}
 </div>
-
-<div class="jumbo">
-  <h3>Buses to ASDA<h3>
 </div>
-<br>
-<div class="asdaContainer timerText" id ="toGW">
-{% for x in buses %}
-  <h3>{{x}}</h3>
-{% endfor %}
+
+<div class="col-6">
+  <div class="jumbo">
+    <h3>Buses to ASDA<h3>
+  </div>
+  <br>
+  <div class="asdaContainer timerText" id ="toGW">
+  {% for x in buses %}
+    <h3>{{x}}</h3>
+  {% endfor %}
+  </div>
+</div> -->
+
+<div class="col-6">
+    <div class="jumbo">
+      <h3>Buses to north greenwich<h3>
+    </div>
+    <br>
+    <div class="container timerText" id ="toGW">
+     {% for x in buses %}
+       <h3>{{x}}</h3>
+     {% endfor %}
+   </div>
+</div>
+
+<div class="col-6">
+    <div class="jumbo">
+        <h3>Buses to ASDA<h3>
+    </div>
+    <br>
+    <div class="asdaContainer timerText" id ="toGW">
+    {% for x in buses %}
+      <h3>{{x}}</h3>
+    {% endfor %}
+    </div>
 </div>
 {% endblock %}

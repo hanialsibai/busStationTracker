@@ -1,11 +1,11 @@
 [
-    "486 to North Greenwich in 0", 
-    "108 to Stratford International Bus Station in 2", 
-    "472 to North Greenwich in 6", 
-    "486 to North Greenwich in 6", 
-    "129 to North Greenwich in 9", 
-    "472 to North Greenwich in 12", 
-    "132 to North Greenwich in 14", 
-    "108 to Stratford International Bus Station in 14", 
-    "486 to North Greenwich in 16"
+    "472 to North Greenwich in 0", 
+    "486 to North Greenwich in 5", 
+    "132 to North Greenwich in 7", 
+    "472 to North Greenwich in 8", 
+    "161 to North Greenwich in 11", 
+    "161 to North Greenwich in 12", 
+    "129 to North Greenwich in 13", 
+    "486 to North Greenwich in 13", 
+    "472 to North Greenwich in 15"
 ]
