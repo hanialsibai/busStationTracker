@@ -16,14 +16,12 @@ def getTime():
         if x['timeToStation'] / 60 <= 16:
                 x = str(x['lineName']) + ' to ' + str(x['destinationName']) + ' in ' + str( x['timeToStation'] / 60)
                 my_bus.append(x)
-
-
     return my_bus
 
 def outputText(inputx):
     with open('outfile.txt', 'w') as f:
         json.dump(inputx,f,ensure_ascii=False, indent = 4, sort_keys=True)
-        
+
 def repeat():
     rt = repeatFunction.RepeatedTimer(5,getTime)
     try:
@@ -31,3 +29,5 @@ def repeat():
         getTime()
     finally:
         rt.stop()
+
+outputText(getTime())

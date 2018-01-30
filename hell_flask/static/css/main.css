@@ -5,6 +5,10 @@ body {
   /* color: #444; */
   height: 100%
 }
+@font-face {
+    font-family: 'bit';
+    src: url('8bit.ttf');
+}
 
 .bg {
 
@@ -51,6 +55,22 @@ header h1.logo:hover {
 .container {
   width: 940px;
   margin: 0 auto;
+  float: left;
+  display: block;
+}
+
+.asdaContainer {
+  width: 750px;
+  margin:0 auto;
+
+}
+
+.timerText {
+  font-family: 'bit';
+  color: #9E1616;
+  font-size: 13px;
+  font-style:normal;
+  font-weight: 50;
 }
 
 div.jumbo {
@@ -59,6 +79,8 @@ div.jumbo {
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
+  font-weight: 75;
+  font-size: 13px;
 }
 
 h2 {
@@ -74,5 +96,5 @@ h3 {
   margin-top: 30px;
   text-align: center;
   letter-spacing: -1px;
-  color: #999;
+  /* color: #999; */
 }
